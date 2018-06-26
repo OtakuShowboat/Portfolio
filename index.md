@@ -4,13 +4,25 @@
 title: Home
 layout: home
 ---
+<div id="personal">
+	<h1>Joshua Hogue</h1>
+	<h3>Website Developer</h3>
+	<p>HTML, CSS, JavaScript, Ruby, WordPress, Jekyll, SquareSpace<br />
+	contact email: joshuadhogue@ymail.com<br />
+	Social Media: OtakuShowboat</p>
+</div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit mollis maximus. Curabitur a facilisis justo. Aliquam erat volutpat. Integer ac quam purus. Quisque nisl arcu, tristique vitae libero convallis, pretium maximus urna. Mauris cursus ex et commodo pulvinar. Morbi sollicitudin diam massa, sit amet pellentesque nisl ornare at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in aliquet lacus. In efficitur vitae purus quis tristique. Vivamus consectetur rutrum luctus. Donec lobortis laoreet dui, a tristique risus sagittis eu. Morbi in posuere nibh.</p>
-
-<p>Suspendisse metus ipsum, aliquam eu mauris laoreet, euismod scelerisque quam. Nunc gravida in tortor sit amet sollicitudin. Vivamus in dignissim ipsum. Aliquam erat volutpat. Donec pretium varius scelerisque. Aliquam maximus, mauris lacinia tincidunt vestibulum, risus est consequat diam, nec convallis ipsum ligula a purus. Duis id ligula at neque vestibulum vulputate. Aliquam erat volutpat. Fusce maximus, neque sed semper sodales, magna ex gravida eros, vitae mattis sapien massa quis mi. Sed vel massa mollis, scelerisque mi sed, varius diam. Maecenas mattis massa a accumsan venenatis. Curabitur augue purus, scelerisque eu vestibulum sed, mollis id magna. Donec in rhoncus sapien. Integer vestibulum accumsan quam, in bibendum ipsum ullamcorper sit amet.</p>
-
-<p>Ut rutrum vehicula magna at sodales. Vivamus tristique ex vitae lorem mattis elementum. Duis vestibulum lacus a magna ornare, vitae euismod sapien bibendum. Ut maximus iaculis malesuada. Praesent aliquet condimentum lectus, ac ornare leo egestas eget. Praesent sed mattis tortor. Curabitur vestibulum tellus sed convallis ornare. Curabitur convallis rhoncus purus, nec mattis felis dictum ut. Vestibulum laoreet eget lorem in interdum. Vestibulum dictum vestibulum tortor, nec blandit nulla malesuada eu. Integer sed volutpat lacus. Nam imperdiet libero lacinia quam egestas, eu pulvinar eros malesuada. Phasellus imperdiet, nulla vel egestas suscipit, velit augue bibendum quam, eget consectetur diam eros at tellus. Quisque mattis ac nulla id vestibulum.</p>
-
-<p>Praesent accumsan quam in libero sagittis faucibus. Morbi ornare tortor justo, nec dapibus augue fermentum a. Nunc vulputate et nunc vitae varius. Sed sit amet congue ligula. Etiam massa quam, pulvinar a ante at, consequat molestie libero. Nulla sagittis nibh egestas nibh eleifend, commodo gravida est malesuada. Etiam at quam malesuada, ullamcorper urna in, pellentesque sapien.</p>
-
-<p>Pellentesque eleifend erat eu convallis feugiat. Ut vehicula enim nec aliquet auctor. Sed volutpat faucibus elit non tristique. Nulla vitae odio nisi. In facilisis rutrum molestie. Praesent imperdiet interdum odio, sed rhoncus leo sodales in. Etiam malesuada libero malesuada odio accumsan, ac molestie risus porta. Fusce mollis at felis sed euismod. Nam ac fermentum mauris. Nulla orci orci, ultrices quis odio eget, pretium laoreet ex. Duis ultricies turpis nunc, in tincidunt lectus semper id. Nullam sit amet sollicitudin velit.</p>
+<div id="portfolio">
+	<h1>Otaku Showboat</h1>
+	<h3>SquareSpace Blog</h3>
+	<h3><a href="https://otakushowboat.com" target="_blank">https://otakushowboat.com</a></h3>
+	<p>Personal blog set up based on my online persona and brand, Otaku Showboat. The blog itself has evolved over time, originating as a Blogger blog, then converting to a WordPress blog, then to SquareSpace.</p>
+	<h1>Kansas Interdisciplinary Carbonates Consortium</h1>
+	<h3>WordPress Overhaul</h3>
+	<h3><a href="http://carbonates.dept.ku.edu" target="_blank">http://carbonates.dept.ku.edu</a></h3>
+	<p>I was originally hired to upgrade and maintain this official website of KICC, improving its functionality and security. I now continue to maintain its content and updates.</p>
+	<h1>KU Ichnology</h1>
+	<h3>Static Site Rebuild</h3>
+	<h3><a href="http://ichnology.ku.edu" target="_blank">http://ichnology.ku.edu</a></h3>
+	<p>The first site I was hired to work on. The Ichnology website was built over many years prior by several geology students. I did a complete overhaul of the site while trying to maintain the original link structure. I continue to maintain this site as part of my work with KICC.</p>
+</div>
