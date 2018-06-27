@@ -17,7 +17,7 @@ title: Joshua Hogue
 email: otakushowboat@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio website of Joshua Hogue
-baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: OtakuShowboat
 github_username:  OtakuShowboat
