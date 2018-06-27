@@ -1,0 +1,27 @@
+---
+---
+@import "{{ site.theme }}";
+
+/** Site Theming */
+
+#main_content {}
+#personal {
+	background-color: cyan;
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+#services {
+	background-color: grey;
+	display: inline-block;
+	height: 20rem;
+	text-align: center;
+	width: 100%;
+}
+#portfolio {
+	background-color: green;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
