@@ -4,24 +4,39 @@
 
 /** Site Theming */
 
+
+
 #main_content {}
-#personal {
-	background-color: cyan;
+
+.cards {
 	display: inline-block;
-	height: 100%;
 	text-align: center;
 	width: 100%;
 }
+
+.large {
+	height: 100%;
+}
+
+#personal {
+	background-color: cyan;
+}
+
 #services {
 	background-color: grey;
-	display: inline-block;
-	height: 20rem;
-	text-align: center;
-	width: 100%;
 }
 #portfolio {
 	background-color: green;
-	display: inline-block;
-	text-align: center;
-	width: 100%;
+}
+#portfolio_heading {
+	font-size: 4rem;
+	transform: translate(0,-50%);
+}
+
+.ptext {
+	left:50%;
+	position: relative;
+	top:50%;
+	transform: translate(-50%, -50%);
+	padding: 0 5%;
 }
