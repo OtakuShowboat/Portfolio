@@ -4,7 +4,14 @@
 
 /** Site Theming */
 
-
+header {
+	background: red;
+	height: 3%;
+	position: fixed;
+	text-align:center;
+	width:100%;
+	z-index: 100000;
+}
 
 #main_content {}
 
