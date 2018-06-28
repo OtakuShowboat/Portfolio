@@ -26,6 +26,15 @@ header {
 	height: 100%;
 }
 
+
+.medium {
+	height: 50%;
+}
+
+.small {
+	height: 20%;
+}
+
 #personal {
 	background-color: cyan;
 }
@@ -33,12 +42,11 @@ header {
 #services {
 	background-color: grey;
 }
-#portfolio {
+#portfolio, #portfolio1, #portfolio2, #portfolio3{
 	background-color: green;
 }
 #portfolio_heading {
-	font-size: 4rem;
-	transform: translate(0,-50%);
+	font-size: 8vmin;
 }
 
 .ptext {
@@ -48,3 +56,20 @@ header {
 	transform: translate(-50%, -50%);
 	padding: 0 5%;
 }
+
+.ptext h1 {
+	font-size: 5vmin;
+}
+
+.ptext h3 {
+	font-size: 3vmin;
+}
+
+.ptext p {
+	font-size: 2vmin;
+}
+
+#personal h1 {
+	font-size: 12vmin;
+}
+
