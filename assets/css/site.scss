@@ -39,7 +39,7 @@ nav ul li a:link, nav ul li a:visited {
 }
 
 
-#main_content {}
+
 
 .cards {
 	display: inline-block;
@@ -61,20 +61,6 @@ nav ul li a:link, nav ul li a:visited {
 	height: 25%;
 }
 
-#personal {
-	background-color: cyan;
-}
-
-#services {
-	background-color: grey;
-}
-#portfolio, #portfolio1, #portfolio2, #portfolio3{
-	background-color: lightgreen;
-}
-#portfolio_heading {
-	font-size: 8vmin;
-}
-
 .ptext {
 	left:50%;
 	position: relative;
@@ -85,17 +71,42 @@ nav ul li a:link, nav ul li a:visited {
 
 .ptext h1 {
 	font-size: 5vmin;
+	font-weight: bold;
+}
+
+.ptext h2 {
+	font-size: 4vmin;
 }
 
 .ptext h3 {
-	font-size: 3vmin;
+	font-size: 2.5vmin;
+	margin-bottom: 0;
 }
 
 .ptext p {
 	font-size: 2vmin;
 }
 
-#personal h1 {
-	font-size: 12vmin;
+
+#main_content {}
+
+#personal {
+	background-color: cyan;
 }
 
+#services {
+	background-color: grey;
+}
+#portfolio, #portfolio1, #portfolio2, #portfolio3{
+	background-color: lightgreen;
+}
+
+
+#personal h1 {
+	font-size: 12vmin;
+	font-weight: normal;
+}
+
+#portfolio_heading {
+	font-size: 8vmin;
+}
