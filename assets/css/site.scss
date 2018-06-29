@@ -4,6 +4,24 @@
 
 /** Site Theming */
 
+h1 {
+	font-size: 7vmin;
+}
+
+h2 {
+	font-size: 4vmin;
+}
+
+h3 {
+	font-size: 2.5vmin;
+	margin-bottom: 0;
+}
+
+p {
+	font-size: 2vmin;
+	line-height: 1.25;
+}
+
 header {
 	background: red;
 	font-size: 1.75vmin;
@@ -12,6 +30,15 @@ header {
 	text-align:center;
 	width:100%;
 	z-index: 100000;
+}
+
+footer {
+	display: inline-block;
+	float: right;
+	font-size: 1.75vmin;
+	height: 5%;
+	text-align: center;
+	width:95%;
 }
 
 nav {
@@ -48,20 +75,24 @@ nav ul li a:link, nav ul li a:visited {
 	width: 90%;
 }
 
-.large {
+.xlarge {
 	height: 100%;
+}
+
+.large {
+	height: 80%;
 }
 
 
 .medium {
-	height: 50%;
+	height: 35%;
 }
 
 .small {
-	height: 25%;
+	height: 20%;
 }
 
-.ptext {
+.ptextcenter {
 	left:50%;
 	position: relative;
 	top:50%;
@@ -69,23 +100,15 @@ nav ul li a:link, nav ul li a:visited {
 	padding: 0 5%;
 }
 
-.ptext h1 {
-	font-size: 5vmin;
-	font-weight: bold;
+.ptext {
+	left:50%;
+	position: relative;
+	top: 5%;
+	transform: translate(-50%, -5%);
+	padding: 0 5%;
 }
 
-.ptext h2 {
-	font-size: 4vmin;
-}
 
-.ptext h3 {
-	font-size: 2.5vmin;
-	margin-bottom: 0;
-}
-
-.ptext p {
-	font-size: 2vmin;
-}
 
 
 #main_content {}
@@ -101,12 +124,16 @@ nav ul li a:link, nav ul li a:visited {
 	background-color: lightgreen;
 }
 
+#portfolio p {
+	margin: 0;
+	padding: 0;
+}
+#portfolio h1 {
+	margin: 0;
+	padding: 0;
+}
 
 #personal h1 {
 	font-size: 12vmin;
 	font-weight: normal;
-}
-
-#portfolio_heading {
-	font-size: 8vmin;
 }

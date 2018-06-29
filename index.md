@@ -4,7 +4,7 @@
 title: Home
 layout: home
 ---
-<div class="large cards" id="personal"><a name="home"></a>
+<div class="xlarge cards" id="personal"><a name="home"></a>
 	<div class="ptext">
 		<h1>Joshua Hogue</h1>
 		<h3>Website Developer</h3>
@@ -12,10 +12,13 @@ layout: home
 		Twitter: <a href="https://www.twitter.com/OtakuShowboat" target="_blank">OtakuShowboat</a></p>
 	</div>
 </div>
-
-<div class="large cards" id="background"><a name="background"></a>
-	<div class="ptext">
+<div class="small cards" id="background_header"><a name="background_head"></a>
+	<div class="ptextcenter">
 		<h1>Background</h1>
+	</div>
+</div>
+<div class="large cards" id="background">
+	<div class="ptext">
 		<h2>Skills</h2>
 		<p>I gained all of my website-related skills through self-study and practice. Here are some of the website-related languages and development platforms I have experience using: <br />
 		CSS, HTML, JavaScript, Jekyll, JQuery, Liquid, Markdown, Python, Ruby, Ruby on Rails, SquareSpace, WordPress</p><br />
@@ -29,8 +32,8 @@ layout: home
 	</div>
 </div>
 
-<div class="large cards" id="services"><a name="services"></a>
-	<div class="ptext">	
+<div class="xlarge cards" id="services"><a name="services"></a>
+	<div class="ptextcenter">	
 		<h1>Services</h1>
 		<p>I offer many website construction services from upgrading existing sites to constructing new ones from scratch. Prices vary depending on the complexity of the website work desired. Continued support is also offered for keeping your website updated at a monthly rate.</p>
 	</div>
@@ -39,8 +42,8 @@ layout: home
 
 </div>
 <div class="small cards" id="portfolio"><a name="portfolio"></a>
-	<div class="ptext">
-		<h1 id="portfolio_heading">Portfolio</h1>
+	<div class="ptextcenter">
+		<h1>Portfolio</h1>
 		<p>Here are the websites I have developed, all of which have continued to hone my development skills.</p>
 	</div>
 </div>
