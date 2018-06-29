@@ -5,11 +5,11 @@ title: Portfolio
 layout: home
 ---
 <div class="xlarge cards" id="personal"><a name="home"></a>
-	<div class="ptextcenter">
+	<div class="ptextcenter personalborder">
 		<h1>Joshua Hogue</h1>
-		<h3>Website Developer</h3>
+		<h3>Website Developer, Gamer, Otaku</h3>
 		<p>Email: <a href="mailto:joshuadhogue@ymail.com">joshuadhogue@ymail.com</a><br />
-		Twitter: <a href="https://www.twitter.com/OtakuShowboat" target="_blank">OtakuShowboat</a></p>
+		Twitter: <a href="https://www.twitter.com/OtakuShowboat" target="_blank">OtakuShowboat</a> &nbsp; LinkedIn: <a href="https://www.linkedin.com/in/joshua-hogue-17811452" target="_blank">Joshua Hogue</a></p>
 	</div>
 </div>
 <div class="small cards" id="background_header"><a name="background_head"></a>
