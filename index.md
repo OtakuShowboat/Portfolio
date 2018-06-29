@@ -1,7 +1,7 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: Home
+title: Portfolio
 layout: home
 ---
 <div class="xlarge cards" id="personal"><a name="home"></a>
@@ -28,7 +28,6 @@ layout: home
 		<h2>Publications</h2>
 		<p>Hogue, J. D., Hasiotis, S. T., In Review, Ichnotaxonomy of the Eocene Green River Formation, Soldier Summit and Spanish Fork Canyon, Uinta Basin, Utah: Interpreting behaviors, lifestyles, and erecting the Cochlichnus Ichnofacies. Paleontological Contributions. <br /><br />
 		Connolly, A.M., Golab, J.A., Wolfe, B.A., Wildermuth, S., Jackson, A., Hammersburg, S.R., Jones, M., Goers, A., Fischer, S., Radar, R., Huber, M., Hogue, J., Moelling, L., Gabay, T., Dorward, B., Falk, A.R., Dzenowski, N., Raisanen, D., and Hasiotis, S.T., 2014, A new Ichnology Website at the University of Kansas (http://ichnology.ku.edu): A guide to identify trace fossils, interpret organism behaviors, and reconstruct paleoenvironments and paleoecosystems, and understand the stratigraphic record of behavior. North American Paleontological Conference, Gainesville, FL, February 14-18, v.13, p. 95. </p>
-		
 	</div>
 </div>
 
