@@ -59,7 +59,7 @@ layout: home
 		<h2>Kansas Interdisciplinary Carbonates Consortium</h2>
 		<h3>WordPress Overhaul</h3>
 		<p><a href="http://carbonates.dept.ku.edu" target="_blank">http://carbonates.dept.ku.edu</a></p>
-		<p>I was originally hired to upgrade and maintain this official website of KICC. The original website used a dated theme, the content was outdated, and the security was in need of improvement, to say the least. I updated to a modern, customized theme with mobile optimization, improved security, and updated the content of the website. I continue to maintain its content and perform regular updates.</p>
+		<p>I was originally hired to upgrade and maintain this official website of KICC. The original website used a dated theme, the content was outdated, and the security was in need of improvement. I updated it with a more modern, customized theme with mobile optimization, improved security, and updated the content. I continue to maintain its content and perform regular updates.</p>
 	</div>
 </div>
 <div class="medium cards" id="portfolio3"><a name="Ichno"></a>
@@ -67,6 +67,6 @@ layout: home
 		<h2>KU Ichnology</h2>
 		<h3>Static Website Overhaul</h3>
 		<p><a href="http://ichnology.ku.edu" target="_blank">http://ichnology.ku.edu</a></p>
-		<p>The first site I was hired to work on, the KU Ichnology website was originally worked on over many years by several Geology students. When I first started working on the site, there were several issues, from broken videos and styling to duplicates of the site within the site file structure. I did a complete overhaul of the site while trying to maintain the original link structure, while also improving the overall user experience. I also gave the website mobile optimizations. I continue to maintain this site as part of my work with KICC.</p>
+		<p>The first site I was hired to work on, the KU Ichnology website was originally worked on over many years by several Geology students. When I first started working on the site, there were several issues, from broken videos and styling to duplicates of the site within the site file structure. I did a complete overhaul of the site while maintaining the original link structure and improving the overall user experienceon desktop and mobile. I continue to maintain this site as part of my work with KICC.</p>
 	</div>
 </div>
