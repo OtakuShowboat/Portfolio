@@ -5,7 +5,7 @@ title: Home
 layout: home
 ---
 <div class="xlarge cards" id="personal"><a name="home"></a>
-	<div class="ptext">
+	<div class="ptextcenter">
 		<h1>Joshua Hogue</h1>
 		<h3>Website Developer</h3>
 		<p>Email: <a href="mailto:joshuadhogue@ymail.com">joshuadhogue@ymail.com</a><br />
