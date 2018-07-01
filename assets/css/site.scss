@@ -20,6 +20,8 @@ h3 {
 p {
 	font-size: 2vmin;
 	line-height: 1.25;
+	padding: 0;
+	margin: 0;
 }
 
 header {
@@ -43,29 +45,33 @@ footer {
 
 nav {
 	background: lightgrey;
-	font-size: 1.5vmin;
-	height: 95%;
+	font-size: 1.35vmin;
+	height: 100%;
 	position: fixed;
-	top: 5%;
 	width: 10%;
 	z-index: 1000;
 }
 
 nav ul {
 	list-style-type: none;
+}
+
+nav > ul {
 	margin: 5%;
 	padding: 0;
 }
 nav ul li {
-	line-height: 1;
-	padding: 8% 0;
+	line-height: 2.25;
+}
+
+nav ul ul {
+	margin-left: 5%;
+	padding: 0;
 }
 
 nav ul li a:link, nav ul li a:visited {
 	color: black;
 }
-
-
 
 
 .cards {
@@ -80,7 +86,7 @@ nav ul li a:link, nav ul li a:visited {
 }
 
 .large {
-	height: 80%;
+	height: 85%;
 }
 
 
@@ -89,7 +95,7 @@ nav ul li a:link, nav ul li a:visited {
 }
 
 .small {
-	height: 20%;
+	height: 15%;
 }
 
 .ptextcenter {
@@ -97,43 +103,75 @@ nav ul li a:link, nav ul li a:visited {
 	position: relative;
 	top:50%;
 	transform: translate(-50%, -50%);
-	padding: 0 5%;
+
 }
 
-.ptext {
-	left:50%;
-	position: relative;
-	top: 5%;
-	transform: translate(-50%, -5%);
-	padding: 0 5%;
+.header {
+	background-color: lightgrey;
 }
 
-
-.personalborder {
-	background-color: rgba(255,255,255,0.5);
-	padding-bottom: 1%;
+.textbg {
+	background-color: rgba(255,255,255,0.70);
+	padding: 1% 5%;
 }
 
 #main_content {}
 
+
+
 #personal {
 	/* background-color: cyan; */
+	background-attachment: fixed;
 	background-image: url("/assets/images/desktopblur.jpg");
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-#services {
-	background-color: grey;
-}
-#portfolio, #portfolio1, #portfolio2, #portfolio3{
-	background-color: lightgreen;
+#backgroundtext {
+	background-attachment: fixed;
+	background-image: url("/assets/images/code.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-#portfolio p {
-	margin: 0;
-	padding: 0;
+#servicestext {
+	background-attachment: fixed;
+	background-image: url("/assets/images/spreadsheet.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+#portfolio1{
+	background-attachment: fixed;
+	background-image: url("/assets/images/OS.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#portfolio2 {
+	background-attachment: fixed;
+	background-image: url("/assets/images/KICC.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 2vmin solid darkgrey;
+	box-sizing: border-box;
+}
+
+#portfolio3 {
+	background-attachment: fixed;
+	background-image: url("/assets/images/Ichno.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 2vmin solid darkgrey;
+	box-sizing: border-box;
+}
+
 #portfolio h1 {
 	margin: 0;
 	padding: 0;
