@@ -33,12 +33,19 @@ layout: home
 
 <div class="small cards header" id="services">
 	<div class="ptextcenter">
-		<h1>Services</h1>
+		<h1>Website Services</h1>
 	</div>
 </div>
 <div class="large cards" id="servicestext">
 	<div class="ptextcenter textbg">	
-		<p>I offer many website construction services from upgrading existing sites to constructing new ones from scratch. Prices vary depending on the complexity of the website work desired. Continued support is also offered for keeping your website updated at a monthly rate.</p>
+		<p>I offer many website-related services including: </p>
+			<ul id="serviceslist">
+				<li>Constructing new sites from scratch</li>
+				<li>Upgrading and redesigning existing sites</li> 
+				<li>Providing hosting services</li> 
+				<li>Providing continued content updates</li>
+			</ul> 
+		<p>Prices vary depending on the complexity of the website work desired.</p>
 	</div>
 
 </div>
@@ -63,7 +70,7 @@ layout: home
 		<h2>Kansas Interdisciplinary Carbonates Consortium</h2>
 		<h3>WordPress Overhaul</h3>
 		<p><a href="http://carbonates.dept.ku.edu" target="_blank">http://carbonates.dept.ku.edu</a></p><br />
-		<p>I was originally hired to upgrade and maintain this official website of KICC. The original website used a dated theme, the content was outdated, and the security was in need of improvement. I updated it with a more modern, customized theme with mobile optimization, improved security, and updated the content. I continue to maintain its content and perform regular updates.</p>
+		<p>I was originally hired to upgrade and maintain this official website of KICC. The original website used a dated theme, the content was outdated, and the security was in need of improvement. I updated it with a more modern, customized theme with mobile optimization, improved security, and updated the content.</p>
 	</div>
 </div>
 <div class="border"></div>
@@ -72,6 +79,6 @@ layout: home
 		<h2>KU Ichnology</h2>
 		<h3>Static Website Overhaul</h3>
 		<p><a href="http://ichnology.ku.edu" target="_blank">http://ichnology.ku.edu</a></p><br />
-		<p>The first site I was hired to work on, the KU Ichnology website was originally worked on over many years by several Geology students. When I first started working on the site, there were several issues, from broken videos and styling to duplicates of the site within the site file structure. I did a complete overhaul of the site while maintaining the original link structure and improving the overall user experienceon desktop and mobile. I continue to maintain this site as part of my work with KICC.</p>
+		<p>The first site I was hired to work on, the KU Ichnology website was originally worked on over many years by several Geology students. When I first started working on the site, there were several issues, from broken videos and styling to duplicates of the site within the site file structure. I did a complete overhaul of the site while maintaining the original link structure and improving the overall user experienceon desktop and mobile.</p>
 	</div>
 </div>
