@@ -1,11 +1,12 @@
 ---
 ---
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 /** Site Theming */
 
 body {
-	font-family: "Courier New", monospace;
+	font-family: "Roboto Mono", monospace;
 }
 
 h1 {
