@@ -57,6 +57,7 @@ layout: home
 		<p>A personal blog set up based on my online persona and brand, Otaku Showboat. The blog itself has evolved over time, originating as a Blogger blog, then converting to a WordPress blog, then to SquareSpace. It is my "first" website, and one I periodically update and continue to evolve.</p>
 	</div>
 </div>
+<div class="border"></div>
 <div class="xlarge cards" id="portfolio2">
 	<div class="ptextcenter textbg">
 		<h2>Kansas Interdisciplinary Carbonates Consortium</h2>
@@ -65,6 +66,7 @@ layout: home
 		<p>I was originally hired to upgrade and maintain this official website of KICC. The original website used a dated theme, the content was outdated, and the security was in need of improvement. I updated it with a more modern, customized theme with mobile optimization, improved security, and updated the content. I continue to maintain its content and perform regular updates.</p>
 	</div>
 </div>
+<div class="border"></div>
 <div class="xlarge cards" id="portfolio3">
 	<div class="ptextcenter textbg">
 		<h2>KU Ichnology</h2>
