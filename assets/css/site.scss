@@ -35,6 +35,7 @@ h1 {
 h2 {
 	font-size: 1.4vmax;
 	font-weight: bold;
+	margin: 1% 0;
 	@include for-phone-only {
 		font-size: 4vmin;
 	}
@@ -179,7 +180,7 @@ a:focus {
 
 .textbg {
 	background-color: rgba(255,255,255,0.70);
-	padding: 1% 5%;
+	padding: 1% 2%;
 
 }
 
@@ -203,7 +204,7 @@ a:focus {
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-height: inherit;
-	overflow: auto;
+	overflow: hidden;
 
 }
 
