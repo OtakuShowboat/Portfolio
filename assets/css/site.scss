@@ -5,33 +5,62 @@
 
 /** Site Theming */
 
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
+
 body {
 	font-family: "Roboto Mono", monospace;
 }
 
 h1 {
-	font-size: 7vmin;
+	font-size: 3.2vmax;
+	@include for-phone-only {
+		font-size: 7vmin;
+	}
 }
 
 h2 {
-	font-size: 4vmin;
+	font-size: 1.4vmax;
+	font-weight: bold;
+	@include for-phone-only {
+		font-size: 4vmin;
+	}
 }
 
 h3 {
-	font-size: 2.5vmin;
+	font-size: 1.4vmax;
 	margin-bottom: 0;
+	@include for-phone-only {
+		font-size: 3.5vmin;
+	}
 }
 
 p {
-	font-size: 2vmin;
+	font-size: 1.1vmax;
 	line-height: 1.25;
 	padding: 0;
 	margin: 0;
+	@include for-phone-only {
+		font-size: 2.25vmin;
+	}
 }
 
 header {
 	background: red;
-	font-size: 1.75vmin;
+	font-size: 0.8vmax;
 	height: 5%;
 	position: fixed;
 	text-align:center;
@@ -42,19 +71,31 @@ header {
 footer {
 	display: inline-block;
 	float: right;
-	font-size: 1.75vmin;
+	font-size: 1.1vmax;
 	height: 5%;
 	text-align: center;
 	width:95%;
+	@include for-phone-only {
+		font-size: 2.25vmin;
+		width: 100%;
+	}
 }
 
 nav {
-	background: lightgrey;
-	font-size: 1.35vmin;
-	height: 100%;
-	position: fixed;
-	width: 10%;
-	z-index: 1000;
+	@include for-phone-only {
+		display: none;
+	}
+
+	@include for-tablet-portrait-up {
+		background: lightgrey;
+		font-size: 0.8vmax;
+		height: 100%;
+		position: fixed;
+		width: 10%;
+		z-index: 1000;
+	}
+
+
 }
 
 nav ul {
@@ -99,7 +140,12 @@ a:focus {
 	display: inline-block;
 	float: right;
 	text-align: center;
-	width: 90%;
+	@include for-phone-only {
+		width: 100%;
+	}
+	@include for-tablet-portrait-up {
+		width: 90%;
+	}
 }
 
 .xlarge {
@@ -134,6 +180,7 @@ a:focus {
 .textbg {
 	background-color: rgba(255,255,255,0.70);
 	padding: 1% 5%;
+
 }
 
 #main_content {}
@@ -155,6 +202,9 @@ a:focus {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	max-height: inherit;
+	overflow: auto;
+
 }
 
 #servicestext {
@@ -197,12 +247,19 @@ a:focus {
 }
 
 #personal h1 {
-	font-size: 12vmin;
+	font-size: 7vmax;
 	font-weight: normal;
+	@include for-phone-only {
+		font-size: 10vmin;
+	}
 }
 
 #serviceslist {
-	font-size: 2vmin;
+	font-size: 1.1vmax;
 	list-style-type: none;
 	margin: 1% 0;
+
+	@include for-phone-only {
+		font-size: 2.25vmin;
+	}
 }
