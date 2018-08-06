@@ -1,11 +1,25 @@
-<ul class="ptextcenter">
-	<li><a href="{{site.baseurl}}/">Home</a></li>
-	<li><a href="{{site.baseurl}}/Background/">Background</a></li>
-	<li><a href="{{site.baseurl}}/Website_Services/">Website Services</a></li>
-	<li><a href="{{site.baseurl}}/Portfolio/">Portfolio</a></li>
-	<!--<ul>
-		<li><a href="#portfolio1">Otaku Blog</a></li>
-		<li><a href="#portfolio2">KICC</a></li>
-		<li><a href="#portfolio3">KU Ichnology</a></li>
-	</ul>-->
-</ul>
+<div class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand" href="{{site.baseurl}}/">Joshua Hogue</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-togger-icon"></span>
+	</button>
+	
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+
+			<li class="nav-item" id="home"><a class="nav-link" href="{{site.baseurl}}/">Home</a></li>
+			<li class="nav-item" id="bgd"><a class="nav-link" href="{{site.baseurl}}/Background/">Background</a></li>
+			<li class="nav-item" id="srv"><a class="nav-link" href="{{site.baseurl}}/Website_Services/">Website Services</a></li>
+			<li class="nav-item" id="pf"><a class="nav-link" href="{{site.baseurl}}/Portfolio/">Portfolio</a></li>
+			<!--<ul>
+				<li><a href="#portfolio1">Otaku Blog</a></li>
+				<li><a href="#portfolio2">KICC</a></li>
+				<li><a href="#portfolio3">KU Ichnology</a></li>
+			</ul>-->
+		</ul>
+	</div>
+</div>
+
+<script>
+	highlightNav();
+</script>

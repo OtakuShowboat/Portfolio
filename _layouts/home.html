@@ -1,11 +1,11 @@
 <html>
 <head> {% include head.html %} </head>
 <body>
-	<nav id="nav"> {% include nav.html %}</nav>
+	<nav class="fixed-top h-5"> {% include nav.html %}</nav>
 
-	<div id="main_content">{{ page.content }}</div>
+	<div class="" id="main_content">{{ page.content }}</div>
 
-	<footer> {% include footer.html %} </footer>
+	<footer class="h-5 text-center no-gutters"> {% include footer.html %} </footer>
 
 	<script src="{{site.baseurl}}/node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="{{site.baseurl}}/node_modules/popper.js/dist/umd/popper.min.js"></script>

@@ -12,124 +12,44 @@
 
 /** Site Theming */
 
-@mixin for-phone-only {
-  @media (max-width: 599px) { @content; }
-}
-@mixin for-tablet-portrait-up {
-  @media (min-width: 600px) { @content; }
-}
-@mixin for-tablet-landscape-up {
-  @media (min-width: 900px) { @content; }
-}
-@mixin for-desktop-up {
-  @media (min-width: 1200px) { @content; }
-}
-@mixin for-big-desktop-up {
-  @media (min-width: 1800px) { @content; }
-}
-@mixin for-big-desktop-down {
-	@media (max-width: 1799px) { @content; }
-}
-@mixin for-desktop-down {
-	@media (max-width: 1199px) { @content; }
-}
-@mixin for-tablet-landscape-down {
-	@media (max-width: 899px) { @content; }
-}
-
 body {
 	font-family: "Roboto Mono", monospace;
 }
 
 h1 {
-	font-size: 3.2vmax;
-		@include for-big-desktop-down {
-			font-size: 3.4vmax;
-		}
-		@include for-desktop-down {
-			font-size: 3.8vmax;
-		}
-		@include for-tablet-landscape-down {
-			font-size: 4.1vmax;
-		}
-		@include for-phone-only {
-			font-size: 4.4vmax;
-		}
+	@include media-breakpoint-down(xs) {
+		font-size: 1.75rem;
+	}
 }
 
 p, td, li {
-	font-size: 0.9vmax;
-
-		@include for-big-desktop-down {
-			font-size: 1.3vmax;
-		}
-		@include for-desktop-down {
-			font-size: 1.5vmax;
-		}
-		@include for-tablet-landscape-down {
-			font-size: 1.7vmax;
-		}
-		@include for-phone-only {
-			font-size: 1.6vmax;
-		}
+	@include media-breakpoint-down(xs) {
+		font-size: 0.8rem;
+	}
 }
 
 h2 {
-	font-size: 1.3vmax;
-
-		@include for-big-desktop-down {
-			font-size: 1.5vmax;
-		}
-		@include for-desktop-down {
-			font-size: 1.9vmax;
-		}
-		@include for-tablet-landscape-down {
-			font-size: 2.2vmax;
-		}
-		@include for-phone-only {
-			font-size: 2.0vmax;
-		}
+	@include media-breakpoint-down(xs) {
+		font-size: 1.50rem;
+	}
 }
 
 h3 {
-	font-size: 1.4vmax;
-	margin-bottom: 0;
-	@include for-phone-only {
-		font-size: 3.5vmin;
+	@include media-breakpoint-down(xs) {
+		font-size: 1.25rem;
 	}
 }
 
-
-header {
-	background: red;
-	font-size: 0.8vmax;
-	height: 5vh;
-	position: fixed;
-	text-align:center;
-	width:100%;
-	z-index: 100000;
-}
-
-footer {
-	display: inline-block;
-	font-size: 1.1vmax;
-	height: 5vh;
-	margin-top: auto;
-	text-align: center;
-	width:100%;
-	@include for-phone-only {
-		font-size: 2.25vmin;
-		width: 100%;
+h4 {
+	@include media-breakpoint-down(xs) {
+		font-size: 1.00rem;
 	}
 }
+
 
 nav {
 		background: lightgrey;
-		height: 5%;
-		max-height: 80px;
-		position: fixed;
-		width: 100%;
-		z-index: 1000;
+		min-height: 50px;
 }
 
 nav ul {
@@ -168,18 +88,14 @@ a:focus {
   outline: 0; // Firefox (remove border on link click)
 }
 
-.border {
-	display: inline-block;
-	background-color: dimgrey;
-	height: 3%;
-	width: 100%;
+footer {
+	min-height: 50px;
 }
 
-.xlarge {
-	box-sizing: border-box;
-	height: 95vh !important;
-	padding-top: 35vh !important;
+.border {
+	background-color: dimgrey;
 }
+
 
 .cards {
 	box-sizing: border-box;
@@ -195,34 +111,19 @@ a:focus {
 	padding: 0 2vw;
 }
 
-.small {
-	height: 15vh;
-}
-
-
-
-.spacer {
-	height: 5vmax;
-}
-
 .ptextcenter {
-	left:50%;
 	position: relative;
-	top:50%;
-	transform: translate(-50%, -50%);
-
+	transform: translateY(50%);
 }
 
 .header {
 	background-color: whitesmoke;
-	margin-top: 5vh;
+	min-height: 150px;
 }
 
 .textbg {
-	background-color: rgba(255,255,255,0.60);
+	background-color: rgba(255,255,255,0.70);
 }
-
-#main_content {}
 
 .background {
 	background-attachment: fixed;
@@ -242,7 +143,6 @@ a:focus {
 #servicestext {
 	box-sizing: border-box;
 	background-image: url("/assets/images/spreadsheet.png");
-	padding-top: 25vh;
 }
 
 #portfolio1{
@@ -259,25 +159,7 @@ a:focus {
 	box-sizing: border-box;
 }
 
-#portfolio h1 {
-	margin: 0;
-	padding: 0;
-}
-
-#personal h1 {
-	font-size: 7vmax;
-	font-weight: normal;
-	@include for-phone-only {
-		font-size: 10vmin;
-	}
-}
-
 #serviceslist {
-	font-size: 1.1vmax;
 	list-style-type: none;
 	margin: 1% 0;
-
-	@include for-phone-only {
-		font-size: 2.25vmin;
-	}
 }
