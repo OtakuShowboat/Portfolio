@@ -6,7 +6,7 @@ layout: home
 ---
 
 <div class="row h-95 pt-5 text-center no-gutters" id="personal">
-	<div class="col my-auto py-2 textbg">
+	<div class="col my-auto py-5 textbg">
 		<h1>Joshua Hogue</h1>
 		<h3>Website Developer, Gamer, Otaku</h3>
 		<p>Email: <a href="mailto:joshuadhogue@ymail.com">joshuadhogue@ymail.com</a><br />
