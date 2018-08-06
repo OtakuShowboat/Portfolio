@@ -93,6 +93,8 @@ footer {
 }
 
 .border {
+	margin: 0;
+	padding: 0;
 	background-color: dimgrey;
 }
 
@@ -147,11 +149,12 @@ footer {
 
 #portfolio1{
 	background-image: url("/assets/images/OS.png");
+	border-bottom: 5vh solid dimgrey;
 }
 
 #portfolio2 {
 	background-image: url("/assets/images/KICC.png");
-	box-sizing: border-box;
+	border-bottom: 5vh solid dimgrey;
 }
 
 #portfolio3 {

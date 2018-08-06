@@ -15,7 +15,6 @@ title: Portfolio
 		<p>A personal blog set up based on my online persona and brand, Otaku Showboat. The blog itself has evolved over time, originating as a Blogger blog, then converting to a WordPress blog, then to SquareSpace, and now to Jekyll. It is my "first" website, and one I periodically update and continue to evolve.</p>
 	</div>
 </div>
-<div class="row h-5 border no-gutters"></div>
 <div class="row h-100 background text-center no-gutters" id="portfolio2">
 	<div class="col my-auto py-5 px-2 textbg">
 		<h2>Kansas Interdisciplinary Carbonates Consortium</h2>
@@ -24,7 +23,6 @@ title: Portfolio
 		<p>Thanks to my work on the KU Ichnology website (below), I was hired to upgrade and maintain the official website of KICC. Going into this project, the website was using a dated theme, the content was outdated, and the security was in need of improvement for a site with gated content for dues-paying members of the organization. I updated it with a more modern, customized theme with mobile optimization, improved security, and updated the content.</p>
 	</div>
 </div>
-<div class="row h-5 border no-gutters"></div>
 <div class="row h-90 background text-center no-gutters" id="portfolio3">
 	<div class="col my-auto py-5 px-2 textbg">
 		<h2>KU Ichnology</h2>
