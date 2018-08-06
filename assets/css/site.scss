@@ -2,6 +2,13 @@
 ---
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import "bootstrap/scss/functions";
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+
+.content {
+  font-size: $custom-font-size;
+}
 
 /** Site Theming */
 
@@ -20,6 +27,15 @@
 @mixin for-big-desktop-up {
   @media (min-width: 1800px) { @content; }
 }
+@mixin for-big-desktop-down {
+	@media (max-width: 1799px) { @content; }
+}
+@mixin for-desktop-down {
+	@media (max-width: 1199px) { @content; }
+}
+@mixin for-tablet-landscape-down {
+	@media (max-width: 899px) { @content; }
+}
 
 body {
 	font-family: "Roboto Mono", monospace;
@@ -27,18 +43,52 @@ body {
 
 h1 {
 	font-size: 3.2vmax;
-	@include for-phone-only {
-		font-size: 7vmin;
-	}
+		@include for-big-desktop-down {
+			font-size: 3.4vmax;
+		}
+		@include for-desktop-down {
+			font-size: 3.8vmax;
+		}
+		@include for-tablet-landscape-down {
+			font-size: 4.1vmax;
+		}
+		@include for-phone-only {
+			font-size: 4.4vmax;
+		}
+}
+
+p, td, li {
+	font-size: 0.9vmax;
+
+		@include for-big-desktop-down {
+			font-size: 1.3vmax;
+		}
+		@include for-desktop-down {
+			font-size: 1.5vmax;
+		}
+		@include for-tablet-landscape-down {
+			font-size: 1.7vmax;
+		}
+		@include for-phone-only {
+			font-size: 1.6vmax;
+		}
 }
 
 h2 {
-	font-size: 1.4vmax;
-	font-weight: bold;
-	margin: 1% 0;
-	@include for-phone-only {
-		font-size: 4vmin;
-	}
+	font-size: 1.3vmax;
+
+		@include for-big-desktop-down {
+			font-size: 1.5vmax;
+		}
+		@include for-desktop-down {
+			font-size: 1.9vmax;
+		}
+		@include for-tablet-landscape-down {
+			font-size: 2.2vmax;
+		}
+		@include for-phone-only {
+			font-size: 2.0vmax;
+		}
 }
 
 h3 {
@@ -49,20 +99,11 @@ h3 {
 	}
 }
 
-p {
-	font-size: 1.1vmax;
-	line-height: 1.25;
-	padding: 0;
-	margin: 0;
-	@include for-phone-only {
-		font-size: 2.25vmin;
-	}
-}
 
 header {
 	background: red;
 	font-size: 0.8vmax;
-	height: 5%;
+	height: 5vh;
 	position: fixed;
 	text-align:center;
 	width:100%;
@@ -71,11 +112,11 @@ header {
 
 footer {
 	display: inline-block;
-	float: right;
 	font-size: 1.1vmax;
-	height: 5%;
+	height: 5vh;
+	margin-top: auto;
 	text-align: center;
-	width:95%;
+	width:100%;
 	@include for-phone-only {
 		font-size: 2.25vmin;
 		width: 100%;
@@ -83,32 +124,29 @@ footer {
 }
 
 nav {
-	@include for-phone-only {
-		display: none;
-	}
-
-	@include for-tablet-portrait-up {
 		background: lightgrey;
-		font-size: 0.8vmax;
-		height: 100%;
+		height: 5%;
+		max-height: 80px;
 		position: fixed;
-		width: 10%;
+		width: 100%;
 		z-index: 1000;
-	}
-
-
 }
 
 nav ul {
-	list-style-type: none;
+	list-style: none;
+	margin: 0;
+	text-align: center;
 }
 
 nav > ul {
-	margin: 5%;
-	padding: 0;
+	margin: 0%;
+	padding: 0%;
 }
 nav ul li {
-	line-height: 2.25;
+
+	display: inline;
+	margin: 0 5px;
+
 }
 
 nav ul ul {
@@ -133,37 +171,38 @@ a:focus {
 .border {
 	display: inline-block;
 	background-color: dimgrey;
-	height:3%;
+	height: 3%;
 	width: 100%;
 }
 
-.cards {
-	display: inline-block;
-	float: right;
-	text-align: center;
-	@include for-phone-only {
-		width: 100%;
-	}
-	@include for-tablet-portrait-up {
-		width: 90%;
-	}
-}
-
 .xlarge {
-	height: 100%;
+	box-sizing: border-box;
+	height: 95vh !important;
+	padding-top: 35vh !important;
 }
 
-.large {
-	height: 85%;
+.cards {
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+
 }
 
-
-.medium {
-	height: 35%;
+.content {
+	box-sizing: border-box;
+	min-height: 75vh;
+	padding: 0 2vw;
 }
 
 .small {
-	height: 15%;
+	height: 15vh;
+}
+
+
+
+.spacer {
+	height: 5vmax;
 }
 
 .ptextcenter {
@@ -176,69 +215,47 @@ a:focus {
 
 .header {
 	background-color: whitesmoke;
+	margin-top: 5vh;
 }
 
 .textbg {
-	background-color: rgba(255,255,255,0.70);
-	padding: 1% 2%;
-
+	background-color: rgba(255,255,255,0.60);
 }
 
 #main_content {}
 
-
-
-#personal {
-	/* background-color: cyan; */
+.background {
 	background-attachment: fixed;
-	background-image: url("/assets/images/desktopblur.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+#personal {
+	background-image: url("/assets/images/desktopblur.jpg");
 }
 
 #backgroundtext {
-	background-attachment: fixed;
 	background-image: url("/assets/images/code.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	max-height: inherit;
-	overflow: hidden;
-
 }
 
 #servicestext {
-	background-attachment: fixed;
+	box-sizing: border-box;
 	background-image: url("/assets/images/spreadsheet.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	padding-top: 25vh;
 }
-#portfolio1{
-	background-attachment: fixed;
-	background-image: url("/assets/images/OS.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 
+#portfolio1{
+	background-image: url("/assets/images/OS.png");
 }
 
 #portfolio2 {
-	background-attachment: fixed;
 	background-image: url("/assets/images/KICC.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	box-sizing: border-box;
 }
 
 #portfolio3 {
-	background-attachment: fixed;
 	background-image: url("/assets/images/Ichno.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	box-sizing: border-box;
 }
 
