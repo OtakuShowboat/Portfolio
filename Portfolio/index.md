@@ -19,7 +19,7 @@ title: Portfolio
 	<div class="col my-auto py-5 px-2 textbg">
 		<h2>Kansas Interdisciplinary Carbonates Consortium</h2>
 		<h3>WordPress Overhaul</h3>
-		<p><a href="http://carbonates.dept.ku.edu" target="_blank">http://carbonates.dept.ku.edu</a></p>
+		<h4><a href="http://carbonates.dept.ku.edu" target="_blank">http://carbonates.dept.ku.edu</a></h4>
 		<p>Thanks to my work on the KU Ichnology website (below), I was hired to upgrade and maintain the official website of KICC. Going into this project, the website was using a dated theme, the content was outdated, and the security was in need of improvement for a site with gated content for dues-paying members of the organization. I updated it with a more modern, customized theme with mobile optimization, improved security, and updated the content.</p>
 	</div>
 </div>
@@ -27,7 +27,7 @@ title: Portfolio
 	<div class="col my-auto py-5 px-2 textbg">
 		<h2>KU Ichnology</h2>
 		<h3>Static Website Overhaul</h3>
-		<p><a href="http://ichnology.ku.edu" target="_blank">http://ichnology.ku.edu</a></p>
+		<h4><a href="http://ichnology.ku.edu" target="_blank">http://ichnology.ku.edu</a></h4>
 		<p>The first site I was hired to work on, the KU Ichnology website was originally worked on over many years by several Geology students. When I first started working on the site, there were several issues, from broken videos and styling to duplicates of the site within the site file structure. I did a complete overhaul of the site while maintaining the original link structure and improving the overall user experience on desktop and mobile.</p>
 	</div>
 </div>
