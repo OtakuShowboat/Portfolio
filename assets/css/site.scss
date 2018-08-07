@@ -1,6 +1,5 @@
 ---
 ---
-@import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 @import "bootstrap/scss/functions";
 @import "variables";
@@ -13,6 +12,9 @@
 /** Site Theming */
 body {
 	font-family: "Roboto Mono", monospace;
+	@include media-breakpoint-down(xs) {
+		font-size: 0.8rem;
+	}
 }
 
 h1 {
@@ -20,7 +22,7 @@ h1 {
 		font-size: 1.75rem;
 	}
 }
-
+s
 p, td, li {
 	@include media-breakpoint-down(xs) {
 		font-size: 0.8rem;
@@ -92,6 +94,23 @@ footer {
 	overflow: hidden;
 }
 
+table {
+	border-radius: 5px;
+}
+
+table th {
+	border-top: none !important;
+}
+
+td, th {
+	vertical-align: middle !important;
+}
+
+th h5, th h3 {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
 .footer {
 	height: 100%;
 }
@@ -115,6 +134,13 @@ footer {
 	box-sizing: border-box;
 	min-height: 75vh;
 	padding: 0 2vw;
+}
+
+.constrained {
+	max-width: 1800px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 94%;
 }
 
 .header {
@@ -148,9 +174,8 @@ footer {
 	background-image: url("/assets/images/code.png");
 }
 
-#servicestext {
-	box-sizing: border-box;
-	background-image: url("/assets/images/spreadsheet.png");
+.servicestext {
+	background-image: url("/assets/images/spreadsheet.png") !important;
 }
 
 #portfolio1{
