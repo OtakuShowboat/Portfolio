@@ -7,7 +7,7 @@ title: Portfolio
 		<h1>Portfolio</h1>
 	</div>
 </div>
-<div class="row h-85 background text-center no-gutters" id="portfolio1">
+<div class="row h-90 background text-center no-gutters" id="portfolio1">
 	<div class="col my-auto py-5 px-2 textbg">
 		<h2>Otaku Blog</h2>
 		<h3>Jekyll Site with Forestry CMS</h3>
@@ -23,7 +23,7 @@ title: Portfolio
 		<p>Thanks to my work on the KU Ichnology website (below), I was hired to upgrade and maintain the official website of KICC. Going into this project, the website was using a dated theme, the content was outdated, and the security was in need of improvement for a site with gated content for dues-paying members of the organization. I updated it with a more modern, customized theme with mobile optimization, improved security, and updated the content.</p>
 	</div>
 </div>
-<div class="row h-90 background text-center no-gutters" id="portfolio3">
+<div class="row h-95 background text-center no-gutters" id="portfolio3">
 	<div class="col my-auto py-5 px-2 textbg">
 		<h2>KU Ichnology</h2>
 		<h3>Static Website Overhaul</h3>

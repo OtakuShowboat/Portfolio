@@ -11,7 +11,9 @@
 }
 
 /** Site Theming */
-
+html, body {
+	height: 100%;
+}
 body {
 	font-family: "Roboto Mono", monospace;
 }
@@ -47,8 +49,7 @@ h4 {
 }
 
 
-nav {
-		background: lightgrey;
+.navbar {
 		min-height: 50px;
 }
 
@@ -89,7 +90,13 @@ a:focus {
 }
 
 footer {
+	display: block;
 	min-height: 50px;
+	overflow: hidden;
+}
+
+.footer {
+	height: 100%;
 }
 
 .border {
@@ -113,14 +120,16 @@ footer {
 	padding: 0 2vw;
 }
 
-.ptextcenter {
-	position: relative;
-	transform: translateY(50%);
-}
-
 .header {
 	background-color: whitesmoke;
 	min-height: 150px;
+}
+
+.huge {
+	font-size: 4.5rem;
+	@include media-breakpoint-down(xs) {
+		font-size: 3.0rem;
+	}
 }
 
 .textbg {
@@ -132,6 +141,7 @@ footer {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 400px;
 }
 
 #personal {
