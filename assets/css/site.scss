@@ -99,7 +99,7 @@ footer {
 .border {
 	margin: 0;
 	padding: 0;
-	background-color: dimgrey;
+	background-color: #343a40;
 }
 
 
@@ -118,7 +118,6 @@ footer {
 }
 
 .header {
-	background-color: whitesmoke;
 	min-height: 150px;
 }
 
@@ -156,12 +155,12 @@ footer {
 
 #portfolio1{
 	background-image: url("/assets/images/OS.png");
-	border-bottom: 5vh solid dimgrey;
+	border-bottom: 5vh solid #343a40;;
 }
 
 #portfolio2 {
 	background-image: url("/assets/images/KICC.png");
-	border-bottom: 5vh solid dimgrey;
+	border-bottom: 5vh solid #343a40;;
 }
 
 #portfolio3 {

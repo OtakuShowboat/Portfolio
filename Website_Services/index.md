@@ -2,7 +2,7 @@
 layout: home
 title: Website Services
 ---
-<div class="row h-15 pt-5 text-center no-gutters header">
+<div class="row h-15 pt-5 text-center bg-secondary text-light no-gutters header">
 	<div class="col my-auto" id="services">
 		<h1>Website Services</h1>
 	</div>

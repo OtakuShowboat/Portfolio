@@ -2,7 +2,7 @@
 layout: home
 title: Background
 ---
-<div class="row h-15 pt-5 text-center no-gutters header">
+<div class="row h-15 pt-5 text-center no-gutters bg-secondary text-light header">
 	<div class="col my-auto" id="background">
 		<h1>Background</h1>
 	</div>
