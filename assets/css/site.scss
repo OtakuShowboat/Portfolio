@@ -197,3 +197,17 @@ th h5, th h3 {
 	list-style-type: none;
 	margin: 1% 0;
 }
+
+.navbar-nav li {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.navbar-nav li:nth-child(n+2) {
+	border-left: 1pt grey solid;
+	@include media-breakpoint-down(md) {
+		border: none;
+	}
+}
